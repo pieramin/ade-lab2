@@ -26,3 +26,8 @@ class TestCalc(unittest.TestCase):
         tested_app = app.test_client()
         reply = tested_app.get("/calc/sub?m=3&n=0").get_json()
         self.assertEqual(reply["result"], "3")
+
+    def test_mul1(self):
+        tested_app = app.test_client()
+        reply = tested_app.get("/calc/mul?m=3&n=0").get_json()
+        self.assertEqual(reply["result"], "0")
