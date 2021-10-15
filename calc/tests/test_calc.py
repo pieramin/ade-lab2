@@ -20,3 +20,9 @@ class TestCalc(unittest.TestCase):
         tested_app = app.test_client()
         reply = tested_app.get("/calc/div?m=3&n=0").get_json()
         self.assertEqual(reply["result"], "DivisionByZeroError")
+
+
+    def test_sub1(self):
+        tested_app = app.test_client()
+        reply = tested_app.get("/calc/sub?m=3&n=0").get_json()
+        self.assertEqual(reply["result"], "3")
