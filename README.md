@@ -1,6 +1,6 @@
 # ASE Calc Microservice
 
-[![Coverage Status](https://coveralls.io/repos/github/pieramin/ade-lab2/badge.svg)](https://coveralls.io/github/pieramin/ade-lab2)
+[![Coverage Status](https://coveralls.io/repos/github/pieramin/ade-lab2/badge.svg?branch=master)](https://coveralls.io/github/pieramin/ade-lab2?branch=master)
 
 ### Setup the environment
 
